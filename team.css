@@ -1,0 +1,17 @@
+.para{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-display:block;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.Team{
+    border: 0px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

@@ -1,0 +1,57 @@
+.juce{
+
+    border: 0px solid red;
+    width: 100%;
+    height: 800px;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0px;
+
+}
+.inner
+{
+    border: 0px solid red;
+    height: 300px;
+    width: 300x;
+    align-items: center;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition:transform 1s ;
+}
+.inner:hover{
+    transform: scale(1.05);
+}
+
+.checked{
+    color: orange;
+}
+
+.star{
+    border: 0px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+#btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+#btn:hover{
+    transform: scale(1.2);
+    background-color: green;
+    color: white;
+}
