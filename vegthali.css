@@ -4,23 +4,26 @@
     font-family: 'Poppins' sans-serif;
 }
 h1{
-    background-color: black;
+    background-color: #0c0017;
     color: white;
     text-align: center;
     font-size: x-large;
+    font-family:Copperplate, Papyrus, fantasy;
 }
 h3{
-    background-color: black;
+    background-color: #0c0017;
     color: white;
     text-align: center;
     font-size: medium;
+    font-family: 'Brush Script MT', cursive;
 }
 #menu ul{
     list-style: none;
     z-index: 1000;
+    font-family: "Courier New", Courier, monospace;
 }
 #menu ul li{
-    background-color: black;
+    background-color: #0c0017;
     border: 1px solid white;
     width: 265.50px;
     height: 40px;
@@ -28,6 +31,7 @@ h3{
     line-height: 40px;
     float: left;
     position: relative;
+    font-family: "Courier New", Courier, monospace;
 }
 #menu ul li a{
     text-decoration: none;
@@ -35,7 +39,7 @@ h3{
     display: block;
 }
 #menu ul li a:hover{
-    background-color: green;
+    background-color: blue;
 }
 #menu ul ul{
     position: absolute;

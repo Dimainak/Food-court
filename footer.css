@@ -1,8 +1,8 @@
 .footer{
     height: 400px;
     width: 100%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: #0c0017;
+    border: 1px solid #0c0017;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,4 +14,5 @@
     float: left;
     margin-top: 5px;
     text-align: center;
+    font-family: Garamond, serif;
 }

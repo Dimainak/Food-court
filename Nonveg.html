@@ -8,37 +8,37 @@
         <link rel="stylesheet" type="text/css" href="vegthali.css">
         <link rel="stylesheet" type="text/css" href="non.css">  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/d8ab1e0021.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>Hunger Palace....</h1>
+        <h1><i class="fa-solid fa-utensils"></i> Hunger Palace....</h1>
         <h3>!! Taste our food which makes your mood good !!</h3>
         <!--code for nav bar-->
      <div id="menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="#">Menu</a>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-brands fa-jedi-order"></i> About</a></li>
+            <li><a href="#"><i class="fa-solid fa-bars"></i> Menu</a>
             <ul>
-                <li><a href="Veg Thali.html">Veg Thali</a>
+                <li><a href="Veg Thali.html">Veg Thali <i class="fa-solid fa-arrow-left"></i></a>
                  <li><a href="#">Non-Veg Thali</a>
-                 <li><a href="pizza.html">Pizza</a>
-                 <li><a href="chinese.html">Chinese</a>
-                <li><a href="#">Soup</a>
-                <li><a href="juice.html">Juice</a> 
+                 <li><a href="pizza.html">Pizza <i class="fa-solid fa-arrow-right"></i></a>
+                 <li><a href="chinese.html">Chinese <i class="fa-solid fa-arrow-right"></i></a>
+                <li><a href="#">Soup <i class="fa-solid fa-arrow-right"></i></a>
+                <li><a href="juice.html">Juice <i class="fa-solid fa-arrow-right"></i></a> 
                 </ul>   
                 </li>
-                <li><a href="#">Order</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-check"></i> Order</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
             </ul>
         </ul>
      </div>
      <br><br>
      <br><br>
-     <h1 align="center">Non-Veg </h1>
-    <br>
+     <h1 align="center"><i class="fa-solid fa-turkey"></i> Non-Veg : </h1>
     <div class="nonveg">
         <div class="inner">
-            <img src="non-1.jpg"><p class="name">Butter Masala Cicken Rs. 150/- </p>
+            <img src="./non veg/non-1.jpg"><p class="name">Butter Masala Cicken Rs. 150/- </p>
             <div class="star"> <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -47,7 +47,7 @@
                 <a href="order.html"><button type="submit" id="btn">Order</button></a>
         </div>
         <div class="inner">
-            <img src="non-2.jpg"><p class="name">Kadhai Chicken Rs. 140/- </p>
+            <img src="./non veg/non-2.jpg"><p class="name">Kadhai Chicken Rs. 140/- </p>
             <div class="star"> <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -56,7 +56,7 @@
                 <a href="order.html"><button type="submit" id="btn">Order</button></a>
         </div>
         <div class="inner">
-            <img src="non-3.jpg"><p class="name">Chicken Changezi Rs. 145/- </p>
+            <img src="./non veg/non-3.jpg"><p class="name">Chicken Changezi Rs. 145/- </p>
             <div class="star"> <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -65,7 +65,7 @@
                 <a href="order.html"><button type="submit" id="btn">Order</button></a>
         </div>
         <div class="inner">
-            <img src="non-4.jpg"><p class="name">Chicken Kabab Rs. 135/- </p>
+            <img src="./non veg/non-4.jpg"><p class="name">Chicken Kabab Rs. 135/- </p>
             <div class="star"> <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -74,7 +74,7 @@
                 <a href="order.html"><button type="submit" id="btn">Order</button></a>
         </div>
         <div class="inner">
-            <img src="non-5.jpg"><p class="name">Roasted Chicken Rs. 110/- </p>
+            <img src="./non veg/non-5.jpg"><p class="name">Roasted Chicken Rs. 110/- </p>
             <div class="star"> <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -83,7 +83,9 @@
               <a href="order.html"><button type="submit" id="btn">Order</button></a>
         </div>
     </div>
-
+    <button type="submit" id="pvbtn" onclick="pNon()"><i class="fa-solid fa-arrow-left"></i> Previous</button>
+    <button type="submit" id="nxtbtn" onclick="nNon()">Next <i class="fa-solid fa-arrow-right"></i></button>
+   <br>
     <div class="footer">
         <div class="footer_in">
             <b>Quick Link</b>
@@ -119,5 +121,6 @@
         </div>
         </div>
         </div>
+        <script src="buttonsys.js"></script>
     </body>
 </html>

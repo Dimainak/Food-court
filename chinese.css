@@ -1,10 +1,12 @@
 .chinese{
     border: 0px solid red;
     width: 100%;
-    height: 800px;
+    height: 900px;
     justify-content: space-around; 
     align-items: center;
     padding: 0px;
+    background-color: #fff;
+    border-radius: 10px;
     
 }
 .inner{
@@ -14,10 +16,12 @@
     align-items: center;
     text-align: center;
     float: left;
-    margin: 5px;
+    margin: 23px;
+    border-radius: 10px;
     margin-bottom: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    box-shadow: 0 4px 8px rgba(182, 179, 179, 0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
     transition:transform 1s ;
+    background-color: #27014b;
 }
 .inner:hover{
     transform: scale(1.05);
@@ -26,24 +30,32 @@
  
     border: 0px solid red;
     width: 100%;
-    height: 800px;
+    height: 900px;
+    background-color: #2706df;
+    border-radius: 10px;
 
 }
 .chilly{
     border: 0px solid red;
     width: 100%;
-    height: 800px;
+    height: 900px;
+    background-color: #2706df;
+    border-radius: 10px;
 }
 .pasta{
     border: 0px solid red;
     width: 100%;
     height: 500px;
+    background-color: #2706df;
+    border-radius: 10px;
     
 }
 .xtra{
     border: 0px solid red;
     width: 100%;
-    height: 800px;   
+    height: 900px; 
+    background-color: #2706df;
+    border-radius: 10px;  
 }
 .checked{
     color: orange;
@@ -58,7 +70,7 @@
 }
 .name{
     text-align: center;
-    color: blue;
+    color: #fff;
     font-size: 20px;
 }
 #btn{
@@ -71,7 +83,42 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
 }
 #btn:hover{
+    cursor: pointer;
     transform: scale(1.2);
     background-color: green;
     color: white;
+}
+#nxtbtn{
+    display: flex;
+    float: right;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(110, 106, 106, 0.4), 0 6px 20px 0 rgba(116, 111, 111, 0.35);
+}
+#pvbtn{
+    display: flex;
+    float:left;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(117, 112, 112, 0.4), 0 6px 20px 0 rgba(116, 112, 112, 0.35);
+}
+#nxtbtn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+    background-color:rgb(43, 16, 196);
+}
+#pvbtn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+    background-color:rgb(43, 16, 196);
 }

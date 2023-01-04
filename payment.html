@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Payment Gateway</tittle>
+        <link rel="stylesheet" href="payment.css">
+        <script src="https://kit.fontawesome.com/d8ab1e0021.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="inputbox">
+                        <span>Full name:</span>
+                        <input type="text" placeholder="Enter name*" required>
+                    </div>
+                    <div class="inputbox">
+                        <span>email:</span>
+                        <input type="email" placeholder="john@gmail.com" required>
+                    </div>
+                    <div class="inputbox">
+                        <span>address:</span>
+                        <input type="text" placeholder="room-street-locality" required>
+                    </div>
+                    <div class="inputbox">
+                        <span>city:</span>
+                        <input type="text" placeholder="city" required>
+                    </div>
+                    <div class="flex">
+                        <div class="inputbox">
+                            <span>state:</span>
+                            <input type="text" placeholder="state" required>
+                        </div>
+                            <div class="inputbox">
+                                <span>zipcode:</span>
+                                <input type="text" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+                     <h4>We accept cards here:</h4>
+                    <div class="inputbox">
+                        <img src="data:image/png;base64,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" width="100" height="100">
+                    </div>
+                    <div class="inputbox">
+                        <span>Name on card:</span>
+                        <input type="text" placeholder="Enter name*" required>
+                    </div>   
+                    <div class="inputbox">
+                        <span>Credit/Debit card number:</span>
+                        <input type="number" placeholder="1111-2222-3333-4444" required>
+                    </div>
+                    <div class="inputbox">
+                        <span>exp month:</span>
+                        <input type="text" placeholder="january" required>
+                    </div>
+                    <div class="flex">
+
+                        <div class="inputbox">
+                            <span>exp year:</span>
+                            <input type="number" placeholder="2022" required>
+                        </div>
+                            <div class="inputbox">
+                                <span>CVV:</span>
+                                <input type="number" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="Submit" value="Proceed" onclick="final()" class="submit-btn">
+            <input type="Submit" value="Back" onclick="back()" class="submit-btn">
+        </form>
+    </div>
+    <script src="payment.js"></script>
+    </body>
+</html>

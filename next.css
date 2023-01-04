@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    border: none;
+}
+h2{
+    background-color: #0c0017;
+    color: #FFF;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: large;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 15px ;
+    cursor: pointer;     
+}
+.btns1{
+    margin-right: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: grey;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btns2{
+    margin-right: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: grey;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btns1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: none;
+    color: white;
+}
+.btns2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: none;
+    color: white;
+}
+#upperh{
+    background-color: #FFF;
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+#upper{
+    text-align: center;
+    background-color: #FFF;
+    font-size: larger;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#details{
+    text-align: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#demo1{
+    color: red;
+    font-family: cursive;
+}
+#demo2{
+    color: red;
+    font-family: cursive;
+}
+#demo3{
+    color: red;
+    font-family: cursive;
+}
+#demo4{
+    color: red;
+    font-family: cursive;
+}
+#demo5{
+    color: red;
+    font-family: cursive;
+}
+#demo6{
+    color: red;
+    font-family: cursive;
+}

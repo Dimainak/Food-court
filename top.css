@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #FFF;
+    margin-top: 0px;
 }
 .top_cat_pro{
     border: 0px solid red;
@@ -12,8 +14,10 @@
     float: left;
     margin: 5px;
     margin-bottom: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(209, 201, 201, 0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
     transition: transform 1s;
+    background-color: yellow;
 }
 .top_cat_pro:hover{
     transform:scale(1.05);

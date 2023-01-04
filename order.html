@@ -7,17 +7,18 @@
           <link rel="stylesheet" type="text/css" href="footer.css">
         <link rel="stylesheet" type="text/css" href="vegthali.css">
         <link rel="stylesheet" type="text/css" href="order.css">
+        <script src="https://kit.fontawesome.com/d8ab1e0021.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
-        <h1>Hunger Palace....</h1>
+        <h1><i class="fa-solid fa-utensils"></i> Hunger Palace....</h1>
         <h3>!! Taste our food which makes your mood good !!</h3>
         <!--code for nav bar-->
      <div id="menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="#">Menu</a>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-brands fa-jedi-order"></i> About</a></li>
+            <li><a href="#"><i class="fa-solid fa-bars"></i> Menu</a>
             <ul>
                 <li><a href="Veg Thali.html">Veg Thali</a>
                  <li><a href="Nonveg.html">Non-Veg Thali</a>
@@ -27,55 +28,63 @@
                 <li><a href="juice.html">Juice</a> 
                 </ul>   
                 </li>
-                <li><a href="#">Order</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-check"></i> Order</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
             </ul>
         </ul>
      </div>
-     <br><br>
-     <h1 align="center">Enter Order Details</h1>
-    <div>
+     <br><br><br>
+     <h1 align="center"><i class="fa-solid fa-address-book"></i> Enter Order Details:</h1>
+     <br>
+    <div id="user">
         <center>
-        <table border="3" width="60%">
+            <form method="get" action="next.html" >
+        <table border="2" width="60%" >
             <tr>
-                <td>Name</td>
-                <td><input type="text" placeholder="enter name" required> </td>
+                <td>Name :</td>
+                <td><input type="text" placeholder="enter name"  id="uname" required> </td>
                 </tr>
                 <tr>
-                <td>Email</td>
-                <td><input type="text" placeholder="enter email" required> </td>
+                <td>Email :</td>
+                <td><input type="text" placeholder="enter email" id="mail" required> </td>
                 </tr>
                 <tr>
-                <td>Mobile</td>
-                <td><input type="text" placeholder="enter number" required> </td>
+                <td>Mobile :</td>
+                <td><input type="text" placeholder="enter number" id="mobile" required> </td>
                 </tr>
                 <tr>
-                <td>Item</td>
-                <td><input type="text" placeholder="enter item" required> </td>
+                <td>Item :</td>
+                <td><input type="text" placeholder="enter item" id="item" required> </td>
             </tr>
             <tr>
-                <td>Quantity</td>
+                <td>Quantity :</td>
                 <td>
-                    <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
+                    <select id="qty">
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                    <option value="5" >5</option>
+                    <option value="6" >6</option>
                 </select> </td>
             </tr>
             <tr>
-                <td>Address</td>
-                <td><textarea></textarea> </td>
+                <td >Address :</td>
+                <td><textarea id="address"></textarea> </td>
             </tr>
             <tr >
                 <td></td>
-                <td><a href="file:///C:/Users/Mainak%20Mishra/Desktop/Projects/Project%20html-1/payment.html"><input type="button" value="Submit"> </a></td>
+                <td><input id="btn" type="submit" value="Proceed" onclick="getData()"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input id="btn" type="submit" value="Back" onclick="Back()"></td>
             </tr>
         </table>
+        </form>
         </center>
     </div>
+    <br>
     <div class="footer">
         <div class="footer_in">
             <b>Quick Link</b>
@@ -111,5 +120,6 @@
         </div>
         </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
